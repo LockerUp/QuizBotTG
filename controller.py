@@ -5,7 +5,7 @@ from aiogram import Bot, types
 from aiogram.filters.command import Command
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 from aiogram import F
-from QuizBotTG.database import dp
+from database import dp
 
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)

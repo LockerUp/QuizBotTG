@@ -1,4 +1,4 @@
-import QuizBotTG.controller as controller
+import controller as controller
 import asyncio
 
 if __name__ == "__main__":

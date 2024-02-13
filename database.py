@@ -1,5 +1,5 @@
 import aiosqlite
-import QuizBotTG.quiz_data as quiz_data
+import quiz_data as quiz_data
 from aiogram import F
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram import types, Dispatcher
