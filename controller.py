@@ -1,5 +1,5 @@
 import logging
-import QuizBotTG.database as database
+import database
 from tabulate import tabulate
 from aiogram import Bot, types
 from aiogram.filters.command import Command
