@@ -11,7 +11,7 @@ from database import dp
 logging.basicConfig(level=logging.INFO)
 
 # Замените "YOUR_BOT_TOKEN" на токен, который вы получили от BotFather
-API_TOKEN = '6869353805:AAFJYeAClF4DLFrrX0Y3Kdtxds0Vt1_SSX4'
+API_TOKEN = 'YOUR_BOT_TOKEN'
 
 # Объект бота
 bot = Bot(token=API_TOKEN)
