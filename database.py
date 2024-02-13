@@ -130,15 +130,6 @@ async def update_quiz_index_and_result(user_id, index, result):
         await db.commit()
 
 
-async def update_last_result(user_id, result):
-    # Создаем соединение с базой данных (если она не существует, она будет создана)
-    async with aiosqlite.connect(DB_NAME) as db:
-        # Обновляем последний результат для указанного пользователя
-        await db.execute('UPDATE quiz_state SET last_result = ? WHERE user_id = ?', (result, user_id))
-        # Сохраняем изменения
-        await db.commit()
-
-
 async def get_player_stats():
     # Создаем соединение с базой данных (если она не существует, она будет создана)
     async with aiosqlite.connect(DB_NAME) as db:
